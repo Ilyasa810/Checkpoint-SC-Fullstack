@@ -7,7 +7,8 @@ Tema Website: Web Review Film
 
 Berikut adalah codingan dari website yang saya buat
 
-<img width="960" alt="{FA6D7474-ADF7-46C0-9BEC-F4024ED0EDD3}" src="https://github.com/user-attachments/assets/423a6538-59fb-48f1-ae93-e04f84133b37" />
+<img width="960" alt="{20EC22BC-F0F9-4DAA-BBE0-1F6723EEAEC7}" src="https://github.com/user-attachments/assets/9f05a1b8-632c-45bc-899a-1162be01477a" />
+
 
 
 
@@ -30,14 +31,13 @@ Di dalam codingan tersebut ada dua div. yang saya buat yaitu div header dan div 
 3. button disini saya memasukkan link website ke dalam button tersebut, jadi ketika tombol tersebut di klik maka akan langsung pindah ke link yang telah dimasukkan.
 
 
-## Berikut Style.CSS yang saya gunakan:
-![image](https://github.com/user-attachments/assets/85599102-4ea3-454a-af44-9f9fff8aa359)
-![image](https://github.com/user-attachments/assets/9bab036a-6a61-472b-9b98-6481d5d0fe1a)
-![image](https://github.com/user-attachments/assets/abf32849-adec-4b71-948e-e748849fae3a)
-
 
 ## Berikut contoh jadi website nya:
-![image](https://github.com/user-attachments/assets/dc55ce97-c608-48ad-b346-bfa5ae310d1d)
 
-![image](https://github.com/user-attachments/assets/53293162-0d3c-4e80-807f-615688218acc)
+<img width="960" alt="{9AFA1689-0204-48A4-944A-66231744153D}" src="https://github.com/user-attachments/assets/d5cb81a0-77e5-4bfd-8829-1967281d6f5d" />
+<img width="960" alt="{DDA703A1-B5C4-403B-8121-191C3B97629A}" src="https://github.com/user-attachments/assets/ede9449b-3e65-4ba8-834c-861f6fbf5c08" />
+
+
+
+
 
