@@ -1,3 +1,4 @@
+
 # Checkpoint 1 SC FullStack
 Nama: Muhammad Ilyasa' 'Izzuddin
 
@@ -39,5 +40,22 @@ Di dalam codingan tersebut ada dua div. yang saya buat yaitu div header dan div 
 
 
 
+
+# Checkpoint 2 SC FullStack
+Nama: Muhammad Ilyasa' 'Izzuddin
+
+NIM: 2409116033
+
+Tema Website: Web Review Film
+
+Berikut adalah codingan dari website yang saya buat
+
+![code cp2](https://github.com/user-attachments/assets/d89c9b2c-b901-437a-95c1-d38b646eae5d)
+
+
+Berikut hasil website nya
+
+
+<img width="806" alt="{9CFFAD43-4731-470B-ADBF-FEF6A7A5660F}" src="https://github.com/user-attachments/assets/0fedfaff-382f-41b2-8d38-f8bc40f223b9" />
 
 
