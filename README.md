@@ -41,7 +41,7 @@ Di dalam codingan tersebut ada dua div. yang saya buat yaitu div header dan div 
 
 
 
-# Checkpoint 2 SC FullStack
+# Checkpoint 2 dan 3 SC FullStack
 Nama: Muhammad Ilyasa' 'Izzuddin
 
 NIM: 2409116033
