@@ -53,9 +53,28 @@ Berikut adalah codingan dari website yang saya buat
 ![code cp2](https://github.com/user-attachments/assets/d89c9b2c-b901-437a-95c1-d38b646eae5d)
 
 
+
 Berikut hasil website nya
 
 
 <img width="806" alt="{9CFFAD43-4731-470B-ADBF-FEF6A7A5660F}" src="https://github.com/user-attachments/assets/0fedfaff-382f-41b2-8d38-f8bc40f223b9" />
 
 
+
+
+======================================================
+
+# Mini Project 2
+Nama: Muhammad Ilyasa' 'Izzuddin
+
+NIM: 2409116033
+
+Tema Website: Web Review Film
+
+Berikut adalah codingan dari website yang saya buat
+
+![image](https://github.com/user-attachments/assets/5c49d0e2-aff8-4ab8-bfc3-853699effd89)
+
+<img width="960" alt="{9DCF80B0-FE33-4CE9-92BC-6A0064238992}" src="https://github.com/user-attachments/assets/a82124c1-3cf7-4a17-b80d-98ab43f1b7a7" />
+
+<img width="960" alt="{A14CD3C5-AC09-4FBC-9789-6668282DFE0F}" src="https://github.com/user-attachments/assets/6fac499f-be00-49b7-a8a2-b024d9fb0895" />
