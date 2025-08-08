@@ -1,5 +1,5 @@
 
-# Checkpoint 1 SC FullStack
+# SC FullStack
 Nama: Muhammad Ilyasa' 'Izzuddin
 
 NIM: 2409116033
