@@ -8,7 +8,7 @@
 /* ===== Body & Base Styling ===== */
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #ffffff; /* Light blue-gray */
+    background-color: #ffffff;
     color: #000000;
     display: flex;
     flex-direction: column;
@@ -16,14 +16,14 @@ body {
     min-height: 100vh;
 }
 
-
+/* ===== Container Section ===== */
 .container {
     margin-top: 100px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    max-width: 1000px;
-    padding: 40px 120px 100px;
+    max-width: 900px;
+    padding: 40px 40px 60px;
     gap: 40px;
     flex-wrap: wrap;
     overflow: auto;
@@ -31,7 +31,6 @@ body {
     box-shadow: 0 4px 6px rgb(0, 0, 0);
     border-radius: 12px;
     background-color: #ffffff;
-    padding: 40px;
 }
 
 /* ===== Navbar ===== */
@@ -40,7 +39,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #000000; /* Indigo */
+    background-color: #000000;
     color: rgb(255, 255, 255);
     padding: 10px 20px;
     display: flex;
@@ -48,6 +47,9 @@ body {
     align-items: center;
     z-index: 1000;
     box-shadow: 0 4px 6px rgb(165, 160, 160);
+    animation-name: slideInDown;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
 }
 
 .logo {
@@ -56,6 +58,7 @@ body {
     font-size: 24px;
     font-weight: 700;
     margin-right: auto;
+    animation: bounce 1.2s ease-in-out;
 }
 
 .navbar a {
@@ -73,28 +76,31 @@ body {
     color: #000000;
 }   
 
-.btn c {
-    border-radius: 15px;
+/* ===== Button Style ===== */
+.btn {
+    display: inline-block;
     background-color: #000000;
-    color: #ffffff;
-    padding: 10px 20px;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 999px;
     text-decoration: none;
-    margin: 0 15px;
-    font-weight: 500;
+    font-weight: 600;
+    margin-top: 20px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    animation: fadeIn 1.5s ease-in-out;
+    animation-delay: 1s;
+    animation-fill-mode: both;
 }
 
 .btn:hover {
-    background-color: #ffffff;
-    color: #000000;
-    padding: 10px 20px;
-    text-decoration: none;
-    color: white;
-}   
+    background-color: #1500ff;
+    transform: scale(1.05);
+}
 
 /* ===== Text Section ===== */
 .text-section {
     flex: 1;
-    min-width: 300px;
+    min-width: 280px;
 }
 
 .intro {
@@ -102,6 +108,7 @@ body {
     font-weight: 600;
     color: #000000;
     margin-bottom: 10px;
+    animation: fadeIn 1.5s ease-in-out;
 }
 
 h1 {
@@ -122,10 +129,13 @@ h2 {
 .desc {
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
-    line-height: 1.6; /* Tambahan untuk spasi antar baris */
+    line-height: 1.6;
     margin-bottom: 15px;
     color: #000000;
     text-align: justify;
+    animation: fadeIn 2s ease-in-out;
+    animation-delay: 0.5s;
+    animation-fill-mode: both;
 }
 
 .bold {
@@ -134,31 +144,12 @@ h2 {
 }
 
 .highlight {
-    color: #000000; /* Green */
+    color: #000000;
 }
 
-/* ===== Button Style ===== */
-.btn {
-    display: inline-block;
-    background-color: #000000;
-    color: white;
-    padding: 12px 24px;
-    border-radius: 999px;
-    text-decoration: none;
-    font-weight: 600;
-    margin-top: 20px;
-    transition: background-color 0.3s ease, transform 0.2s ease;
-}
-
-.btn:hover {
-    background-color: #1500ff;
-    transform: scale(1.05);
-}
-
-
+/* ===== Image Section ===== */
 .image-section img {
-    width: 300px;
-    max-width: 100%;
+    max-width: 250px;
     height: auto;
     border-radius: 12px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
@@ -166,6 +157,7 @@ h2 {
     padding: 5px;
     border: 2px solid #cbd5e1;
     background-color: #f1f5f9;
+    animation: slideInRight 1.5s ease-in-out;
 }
 
 /* ===== Footer ===== */
@@ -175,6 +167,9 @@ footer {
     text-align: center;
     font-size: 14px;
     color: #94a3b8;
+    animation: fadeIn 2s ease-in-out;
+    animation-delay: 1.5s;
+    animation-fill-mode: both;
 }
 
 /* ===== Display Demo Section ===== */
@@ -235,4 +230,79 @@ footer {
     border: 1px solid #f59e0b;
     font-size: 14px;
     color: #78350f;
+}
+
+/* ===== Responsive Design ===== */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+        padding: 30px 20px;
+        max-width: 95%;
+    }
+
+    .image-section img {
+        width: 200px;
+    }
+
+    .intro {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .desc,
+    .details {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .text-section {
+        text-align: center;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+    }
+
+    .navbar a {
+        margin: 5px 0;
+    }
+}
+
+/* ===== Animation Keyframes ===== */
+@keyframes bounce {
+    0%   { transform: translateY(0); }
+    30%  { transform: translateY(-15px); }
+    50%  { transform: translateY(0); }
+    70%  { transform: translateY(-7px); }
+    100% { transform: translateY(0); }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@keyframes slideInDown {
+    from {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideInRight {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
 }
